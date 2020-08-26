@@ -10,9 +10,6 @@ public class Initializer extends AbstractAnnotationConfigDispatcherServletInitia
 	protected Class<?>[] getRootConfigClasses() {
 		return new Class[] {
 				ApplicationConfig.class,
-				ApplicationDatabaseConfig.class,
-				ApplicationUploadConfig.class,
-				ApplicationFormatterConfig.class
 		};
 	}
 

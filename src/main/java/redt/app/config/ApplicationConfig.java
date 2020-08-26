@@ -31,9 +31,6 @@ import java.nio.charset.StandardCharsets;
 @EnableWebMvc
 @ComponentScan("redt.app")
 @PropertySource("classpath:application.properties")
-@EnableJpaRepositories("redt.app.repository")
-@EnableSpringDataWebSupport
-@EnableTransactionManagement
 public class ApplicationConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
 	private ApplicationContext applicationContext;
 

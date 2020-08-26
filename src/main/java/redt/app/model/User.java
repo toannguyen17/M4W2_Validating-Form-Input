@@ -1,11 +1,13 @@
 package redt.app.model;
 
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
 public class User {
-	@NotEmpty
+//	@NotEmpty
+	@NotBlank
 	@Size(min = 2, max = 30)
 	private String name;
 
